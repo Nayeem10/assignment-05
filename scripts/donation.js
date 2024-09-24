@@ -87,4 +87,6 @@ function calculateDonation(event) {
 
     const modal = document.getElementById('my-modal');
     modal.showModal();
+
+    document.getElementById('no-history').classList.add('hidden');
 }
