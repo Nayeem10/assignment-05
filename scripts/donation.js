@@ -1,18 +1,3 @@
-tailwind.config = {
-    theme: {
-        extend: {
-            fontFamily: {
-                lexend: ["Lexend", "sans-serif"],
-            },
-            colors: {
-                parrot: "#B4F461",
-                "dark-0": "#111111B3",
-
-            }
-        }
-    }
-}
-
 function toggle(sectionID1, sectionID2) {
     document.getElementById(sectionID1).classList.add('hidden');
     document.getElementById(sectionID2).classList.remove('hidden');
